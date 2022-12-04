@@ -1,0 +1,48 @@
+:root{
+    --primary-color:#fcd34d;
+    --primary-white:white;
+}
+
+body{
+    text-align: center;
+}
+
+label{
+    display: block;
+    font-size: larger;
+    margin: 2rem 0px;
+    font-weight: 600;
+}
+
+input{
+    font-size: large;
+    display: block;
+    outline: black;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 325px;
+}
+
+main{
+    display: block;
+}
+
+button{
+    margin: auto;
+    width: fit-content;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: black;
+    color: var(--primary-white);
+    border-color: var(--primary-white);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-size: larger;
+}
+
+div{
+    font-size: x-large;
+}
