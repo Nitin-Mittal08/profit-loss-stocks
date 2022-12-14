@@ -19,8 +19,8 @@ function showOutput(msg){
 }
 
 function calculateProfitAndLoss(initial, qty, current){
-
-    if(initial>current){
+    if(initial >0 && qty>0 && current >0){
+        if(initial>current){
         var loss = (initial-current)*qty;
         var lossPercentage = (loss/initial)*100;
         showOutput("Hey the loss is " +loss+"and the loss percentage is "+lossPercentage+"%");
@@ -34,6 +34,12 @@ function calculateProfitAndLoss(initial, qty, current){
         showOutput("No pain no gain and No gain No pain");
 
     }
+   }else{
+       showOutput("Please enter positive values as input");
+       
+   }
+
+    
     
 }
 
